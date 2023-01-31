@@ -1,0 +1,112 @@
+body{
+    background-color: #000000;
+    justify-content: center;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.05em;
+}
+
+
+#pagina{
+    display: flexbox;
+    justify-content:center;
+    margin: auto;
+    min-width: 650px;
+    max-width: 1000px;
+    padding: 50px  ;
+   
+    background-color: white;
+}
+
+/* Elementos del encabezado */
+.encabezado{
+    height: 220px;
+    text-align: center;
+    justify-content: center;
+    display: flexbox;
+}
+
+/*Contenedor de la foto de perfil (figure e img)*/
+#perfil{
+    align-content: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+  
+    
+}
+
+/* img*/
+#foto{
+    margin: 0px;
+    display: flexbox;
+    min-width:138px;
+    min-height: 138px;
+    width: 99%;
+    height: 99%;
+ 
+    font-weight: bold;
+
+}
+
+/* img contenedor de la imagen de perfil */
+#fotoPerfil{
+    border-radius: 50%;
+    width: 138px;
+    height: 138px;
+    justify-content: center;
+    
+    
+}
+
+
+
+
+/* Elementos del cuerpo*/
+.tematica{
+    clear: both;
+    border-top: 3px solid #000000;
+    padding-bottom: 10px;
+}
+
+.datos {
+    padding-left: 30px;
+}
+
+.resaltar {
+    font-family: 'Roboto', sans-serif;;
+    text-decoration: underline;
+}
+
+.fleVisibilidad {
+    margin-top: 23px;
+    margin-right: 45px;
+    float: right;
+    
+}
+
+.titulo {
+    padding-bottom: 4em;
+    border-bottom: 1px solid #000000;
+}
+.titulo h3 {
+    float: left;
+    display: flex;
+    margin: 0px;
+    padding: 1em;
+    font-size: 1.27em;
+}
+
+[id^=mostrar] {
+    display: none;
+}
+
+footer {
+    clear: both;
+    
+    border-top: 1px solid #000000;
+    padding-top: 1em;
+    
+}
